@@ -1,0 +1,99 @@
+/*通用组开始 */
+.mod-dropdownlist {
+    display: inline-block;
+}
+.mod-dropdownlist .dropdown-select {
+    background: transparent url(img/bg_dropdown.png) left top repeat-x;
+    border: 1px solid #d9d9d9;
+    color: #666;
+    cursor: default;
+    display: inline-block;
+    *display: inline;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    *zoom: 1;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    font-size: 14px;
+}
+.mod-dropdownlist .dropdown-select:visited,
+.mod-dropdownlist .dropdown-select:hover,
+.mod-dropdownlist .dropdown-select:active {
+    border: 1px solid #c7c7c7;
+    color: #666;
+    background: transparent;
+}
+.mod-dropdownlist .dropdown-select .dropdown-input {
+    border-right: 1px solid #ededed;
+    padding: 0 10px;
+    zoom: 1;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 30px;
+    float: left;
+    height: 30px;
+}
+.mod-dropdownlist .dropdown-select .dropdown-icon {
+    background: transparent url(img/icon_dropdown.gif) center center no-repeat;
+    border-left: 1px solid #fff;
+    width: 40px;
+    padding: 0 0;
+    zoom: 1;
+    font-size: 14px;
+    line-height: 30px;
+    float: left;
+    height: 30px;
+}
+.mod-dropdownlist .dropdown-select:hover .dropdown-icon {
+    background: transparent url(img/icon_dropdown_hover.gif) center center no-repeat;
+}
+.mod-dropdownlist .dropdown-list {
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #E64E3F;
+    display: block;
+    overflow: hidden;
+    padding:0;
+}
+.mod-dropdownlist .dropdown-options {
+    background: #fff;
+    display: block;
+    overflow: hidden;
+    overflow-y: auto;
+    padding:0;
+    margin: 0;
+}
+.mod-dropdownlist .dropdown-options li {
+    margin: 0;
+    padding: 0;
+}
+.mod-dropdownlist .dropdown-options li a {
+    color: #666;
+    cursor: default;
+    display: block;
+    padding: 0 10px;
+    white-space: nowrap;
+    width: 120%;
+    font-size: 14px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.mod-dropdownlist .dropdown-options li a:hover {
+    background-color: #eee;
+    color: #666;
+}
+.mod-dropdownlist .dropdown-options li.dropdown-options-focus a,
+.mod-dropdownlist .dropdown-options li.dropdown-options-focus a:hover{
+    background-color: #E64E3F;
+    color:#fff;
+}
+.mod-dropdownlist .dropdown-list .dropdown-custombox {
+    border-top: 1px solid #ccc;
+}
